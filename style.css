@@ -41,3 +41,7 @@ footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}foo
 .rows div.l{grid-template-columns:200px 1fr}.rows p+p{margin-top:6px}
 .two.r{grid-template-columns:1.2fr 1fr}
 @media(max-width:800px){.two.r{grid-template-columns:1fr}}
+.pg p.lead,.note{max-width:none}
+.gal{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.top{display:grid;grid-template-columns:1fr 320px;gap:52px;align-items:center}
+@media(max-width:800px){.top{grid-template-columns:1fr}.top .pic{max-width:320px}}
