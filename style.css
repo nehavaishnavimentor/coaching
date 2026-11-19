@@ -45,3 +45,7 @@ footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}foo
 .gal{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
 .top{display:grid;grid-template-columns:1fr 320px;gap:52px;align-items:center}
 @media(max-width:800px){.top{grid-template-columns:1fr}.top .pic{max-width:320px}}
+.top{grid-template-columns:1fr 340px;gap:44px;align-items:start}
+.top .pg-pic{aspect-ratio:1/1;object-position:center 22%}
+.top .chips{margin:16px 0 20px}.top h1{margin-bottom:.4em}
+.rows p{max-width:none}
