@@ -74,3 +74,5 @@ footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}foo
 .pg.xh{padding:36px 0 6px}.xh h1{margin-bottom:.2em}.xh p.lead{font-size:16px}
 .sto div{grid-template-columns:190px 1fr;gap:28px;padding:8px 0}.sto h3{font-size:16.5px}.sto p{font-size:14.5px;line-height:1.5;white-space:normal}
 @media(max-width:800px){.xp div{grid-template-columns:1fr;gap:4px}.hero .pic{max-height:none}}
+
+.lf{padding-top:20px}.lf h1{font-size:clamp(28px,3.4vw,38px)}.lf p.lead{font-size:15.5px;margin-bottom:10px}
