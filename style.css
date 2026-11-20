@@ -46,6 +46,12 @@ footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}foo
 .top{display:grid;grid-template-columns:1fr 320px;gap:52px;align-items:center}
 @media(max-width:800px){.top{grid-template-columns:1fr}.top .pic{max-width:320px}}
 .top{grid-template-columns:1fr 340px;gap:44px;align-items:start}
-.top .pg-pic{aspect-ratio:1/1;object-position:center 22%}
+
 .top .chips{margin:16px 0 20px}.top h1{margin-bottom:.4em}
 .rows p{max-width:none}
+
+.hero p.big{font:italic 400 30px/1.25 Newsreader,serif;color:var(--ink);margin-bottom:16px}
+.qt{padding:44px 0;text-align:center}.qt p{font:italic 400 26px/1.35 Newsreader,serif;max-width:30em;margin:0 auto;color:var(--ink)}
+.gal figcaption{font-size:14px;line-height:1.45;margin-top:10px}.gal figcaption b{display:block;font:500 19px Newsreader,serif;color:var(--ink);margin-bottom:3px}
+.top{align-items:start}
+.top .pg-pic{aspect-ratio:auto;height:auto;object-fit:contain;object-position:top}
