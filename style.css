@@ -63,3 +63,14 @@ footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}foo
 .lf{padding:34px 0 0}.lf h1{margin-bottom:.25em}.lf p.lead{margin-bottom:14px}
 .sto div{padding:11px 0;gap:24px;grid-template-columns:210px 1fr}.sto h3{font-size:17px}.sto p{font-size:15px;line-height:1.5;max-width:none}
 @media(max-width:800px){.sto div{grid-template-columns:1fr;gap:4px}}
+
+/* v6 */
+.hero{padding:26px 0 30px}.hero h1{font-size:clamp(28px,3.4vw,38px);margin-bottom:.35em}
+.hero p{font-size:15.5px;line-height:1.6}.hero p.big{font-size:25px;margin-bottom:10px}
+.hero .cta{margin-top:18px}.hero .pic{max-height:430px}
+.stats .w{padding-top:20px;padding-bottom:20px}
+.wide{max-width:1180px}
+.xp div{grid-template-columns:190px 1fr;gap:28px;padding:11px 0}.xp h3{font-size:16.5px;line-height:1.35}.xp p{font-size:14.5px;line-height:1.55}
+.pg.xh{padding:36px 0 6px}.xh h1{margin-bottom:.2em}.xh p.lead{font-size:16px}
+.sto div{grid-template-columns:190px 1fr;gap:28px;padding:8px 0}.sto h3{font-size:16.5px}.sto p{font-size:14.5px;line-height:1.5;white-space:normal}
+@media(max-width:800px){.xp div{grid-template-columns:1fr;gap:4px}.hero .pic{max-height:none}}
