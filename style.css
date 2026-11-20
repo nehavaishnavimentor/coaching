@@ -58,3 +58,8 @@ footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}foo
 
 .qt{padding:36px 0 30px}.qt p{margin-bottom:20px}
 .story>*{max-width:44em}.story p{margin:0 0 14px}.story h2{margin-bottom:16px}
+
+.hero{padding:36px 0 40px}
+.lf{padding:34px 0 0}.lf h1{margin-bottom:.25em}.lf p.lead{margin-bottom:14px}
+.sto div{padding:11px 0;gap:24px;grid-template-columns:210px 1fr}.sto h3{font-size:17px}.sto p{font-size:15px;line-height:1.5;max-width:none}
+@media(max-width:800px){.sto div{grid-template-columns:1fr;gap:4px}}
