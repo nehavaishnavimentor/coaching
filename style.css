@@ -55,3 +55,6 @@ footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}foo
 .gal figcaption{font-size:14px;line-height:1.45;margin-top:10px}.gal figcaption b{display:block;font:500 19px Newsreader,serif;color:var(--ink);margin-bottom:3px}
 .top{align-items:start}
 .top .pg-pic{aspect-ratio:auto;height:auto;object-fit:contain;object-position:top}
+
+.qt{padding:36px 0 30px}.qt p{margin-bottom:20px}
+.story>*{max-width:44em}.story p{margin:0 0 14px}.story h2{margin-bottom:16px}
